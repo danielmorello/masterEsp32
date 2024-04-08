@@ -1,0 +1,54 @@
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 1,
+  "timeMicros": 132673,
+  "coreTemp": 72.22222137,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 2,
+  "timeMicros": 145241,
+  "coreTemp": 52.22222137,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 1,
+  "timeMicros": 16347561,
+  "coreTemp": 74.44444275,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 2,
+  "timeMicros": 16347721,
+  "coreTemp": 54.44444275,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 2,
+  "timeMicros": 28100227,
+  "coreTemp": 55,
+  "type": 3,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 1,
+  "timeMicros": 28100122,
+  "coreTemp": 74.44444275,
+  "type": 3,
+  "experiment": 2,
+  "position": 0
+}

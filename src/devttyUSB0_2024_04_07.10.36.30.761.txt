@@ -1,0 +1,36 @@
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 133737,
+  "coreTemp": 71.1111145,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 148855,
+  "coreTemp": 51.66666794,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 2115103,
+  "coreTemp": 52.77777863,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 2114824,
+  "coreTemp": 72.77777863,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}

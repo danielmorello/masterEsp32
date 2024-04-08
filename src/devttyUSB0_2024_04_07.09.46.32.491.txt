@@ -1,0 +1,468 @@
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 132970,
+  "coreTemp": 72.22222137,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 149032,
+  "coreTemp": 52.22222137,
+  "type": 1,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 2828895,
+  "coreTemp": 53.33333206,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 2828661,
+  "coreTemp": 73.33333588,
+  "type": 2,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 23428753,
+  "coreTemp": 53.88888931,
+  "type": 3,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 23428616,
+  "coreTemp": 74.44444275,
+  "type": 3,
+  "experiment": 1,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 44028602,
+  "coreTemp": 75,
+  "type": 2,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 44028642,
+  "coreTemp": 54.44444275,
+  "type": 2,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 60134043,
+  "coreTemp": 75,
+  "type": 1,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 60150047,
+  "coreTemp": 55,
+  "type": 1,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 64628528,
+  "coreTemp": 54.44444275,
+  "type": 3,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 64628586,
+  "coreTemp": 75,
+  "type": 3,
+  "experiment": 2,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 85228414,
+  "coreTemp": 55,
+  "type": 2,
+  "experiment": 3,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 85228569,
+  "coreTemp": 75.55555725,
+  "type": 2,
+  "experiment": 3,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 105828552,
+  "coreTemp": 76.1111145,
+  "type": 3,
+  "experiment": 3,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 105828298,
+  "coreTemp": 55.55555725,
+  "type": 3,
+  "experiment": 3,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 120134987,
+  "coreTemp": 75.55555725,
+  "type": 1,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 120150991,
+  "coreTemp": 55.55555725,
+  "type": 1,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 126428183,
+  "coreTemp": 55,
+  "type": 2,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 126428534,
+  "coreTemp": 76.1111145,
+  "type": 2,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 147028067,
+  "coreTemp": 55.55555725,
+  "type": 3,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 147028516,
+  "coreTemp": 76.1111145,
+  "type": 3,
+  "experiment": 4,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 167628498,
+  "coreTemp": 76.1111145,
+  "type": 2,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 167627954,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 180134987,
+  "coreTemp": 76.1111145,
+  "type": 1,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 180150991,
+  "coreTemp": 55.55555725,
+  "type": 1,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 188227834,
+  "coreTemp": 55.55555725,
+  "type": 3,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 188228480,
+  "coreTemp": 76.1111145,
+  "type": 3,
+  "experiment": 5,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 208828462,
+  "coreTemp": 76.66666412,
+  "type": 2,
+  "experiment": 6,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 208827717,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 6,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 229428443,
+  "coreTemp": 76.1111145,
+  "type": 3,
+  "experiment": 6,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 229427600,
+  "coreTemp": 56.11111069,
+  "type": 3,
+  "experiment": 6,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 240134987,
+  "coreTemp": 76.66666412,
+  "type": 1,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 240150991,
+  "coreTemp": 56.11111069,
+  "type": 1,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 250027483,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 250028424,
+  "coreTemp": 76.66666412,
+  "type": 2,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 270627365,
+  "coreTemp": 56.11111069,
+  "type": 3,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 270628405,
+  "coreTemp": 76.66666412,
+  "type": 3,
+  "experiment": 7,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 291228386,
+  "coreTemp": 76.66666412,
+  "type": 2,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 291227247,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 300134987,
+  "coreTemp": 76.66666412,
+  "type": 1,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 300150991,
+  "coreTemp": 56.11111069,
+  "type": 1,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 311827129,
+  "coreTemp": 55.55555725,
+  "type": 3,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 311828367,
+  "coreTemp": 77.22222137,
+  "type": 3,
+  "experiment": 8,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 332427011,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 9,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 332428347,
+  "coreTemp": 77.22222137,
+  "type": 2,
+  "experiment": 9,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 353026893,
+  "coreTemp": 55.55555725,
+  "type": 3,
+  "experiment": 9,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 353028328,
+  "coreTemp": 76.66666412,
+  "type": 3,
+  "experiment": 9,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 360134987,
+  "coreTemp": 77.22222137,
+  "type": 1,
+  "experiment": 10,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 360150991,
+  "coreTemp": 55.55555725,
+  "type": 1,
+  "experiment": 10,
+  "position": 0
+}
+{
+  "macOrigin": "CC:50:E3:96:26:08",
+  "origin": 1,
+  "timeMicros": 373626774,
+  "coreTemp": 55.55555725,
+  "type": 2,
+  "experiment": 10,
+  "position": 0
+}
+{
+  "macOrigin": "24:6F:28:79:D7:D8",
+  "origin": 2,
+  "timeMicros": 373628308,
+  "coreTemp": 76.66666412,
+  "type": 2,
+  "experiment": 10,
+  "position": 0
+}

@@ -1,20 +1,18 @@
-#include <esp_now.h>
-#include <WiFi.h>
-#include <ArduinoJson.h>
-#include <WiFi.h>
-
-typedef struct struct_message {
-  char json[200];
-} struct_message;
-
-struct_message message;
+#include "main.h"
 
 void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
   memcpy(&message, incomingData, sizeof(message));
+  queue.unshift(message);
   JsonDocument doc;
   deserializeJson(doc, message.json);
   serializeJsonPretty(doc, Serial);
   Serial.println();
+}
+
+void startExperiment() {
+  digitalWrite(EXPERIMENT_PIN, HIGH);
+  delay(highTime);
+  digitalWrite(EXPERIMENT_PIN, LOW);
 }
  
 void setup() {
@@ -29,7 +27,14 @@ void setup() {
   Serial.println("ESPNOW OK");
 
   esp_now_register_recv_cb(OnDataRecv);
+  pinMode(EXPERIMENT_PIN, OUTPUT);
 }
  
 void loop() {
+  delay(interval - highTime);
+  startExperiment();
+  interval = interval + pace;
+  if (interval > maxInterval) {
+    interval = minInterval;
+  }
 }
