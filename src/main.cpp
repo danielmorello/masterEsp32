@@ -1,5 +1,4 @@
 #include "main.h"
-#include "Arduino.h"
 
 void printDataOnSerial()
 {
@@ -11,7 +10,7 @@ void printDataOnSerial()
     Serial.printf("%02X:", message.macOrigin[i]);
   }
   Serial.println();
-  Serial.print("Micos: ");
+  Serial.print("Micros: ");
   Serial.println(message.timeMicros);
   Serial.print("Temp: ");
   Serial.println(message.coreTemp);
@@ -40,6 +39,10 @@ void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
 void OnDataRecv(const uint8_t * mac, const uint8_t *incomingData, int len) {
   memcpy(&message, incomingData, sizeof(message));
   printDataOnSerial();
+
+  Wire.beginTransmission(SLAVE_ADDR);
+  Wire.write((byte *)&message, sizeof(message));
+  Wire.endTransmission();
 }
 
 void startExperiment()
@@ -52,6 +55,7 @@ void startExperiment()
 void setup() {
   pinMode(EXPERIMENT_PIN, OUTPUT);
 
+  Wire.begin(SDA_PIN, SCL_PIN, 100000);
   Serial.begin(115200);
   WiFi.mode(WIFI_AP_STA);
 
@@ -65,6 +69,8 @@ void setup() {
   esp_now_register_send_cb(OnDataSent);
   esp_now_register_recv_cb(OnDataRecv);
 
+  Serial.println(numPeers);
+
   for (size_t i = 0; i < numPeers; i++) {
     memcpy(peerInfo.peer_addr, slaveAddresses[i], 6);
     peerInfo.channel = 0;  
@@ -73,6 +79,7 @@ void setup() {
       Serial.println("Failed to add peer");
       return;
     }
+    delay(200);
   }
 
 }
@@ -82,6 +89,7 @@ void loop() {
   masterMessage.restart = true;
   for (size_t i = 0; i < numPeers; i++) {
     esp_err_t result = esp_now_send(slaveAddresses[i], (uint8_t *) &masterMessage, sizeof(masterMessage));
+    delay(200);
   }
   delay(10000);
 
@@ -103,7 +111,7 @@ void loop() {
   }
   
   Serial.println("==================================");
-  Serial.println("=========END EXPERIMENT=========");
+  Serial.println("===========END EXPERIMENT=========");
   Serial.println("==================================");
 
   interval = 5000;
